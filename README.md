@@ -1,5 +1,82 @@
 # React + Vite
 
+# Vendor Risk Management (VRM) UI Project
+
+This project is a **Vendor Risk Management (VRM) UI** built as part of an assessment/internship task.  
+It demonstrates core VRM workflows such as assessments, reviews, remediation, renewals, reports, and a vendor portal.
+
+# Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router DOM
+
+# Project Features
+
+## 1. Assessments
+- Assessment list view
+- Assign assessment screen
+- Status-wise assessment tracking (Assigned, In Progress, Submitted, etc.)
+
+## 2. Templates & Questionnaires
+- Template list
+- Create template (basic builder v1)
+- Questionnaires with:
+  - Section navigation
+  - Save draft functionality
+  - Progress percentage indicator
+
+## 3. Review Queue
+- Review queue list
+- Review detail screen
+- Scoring breakdown placeholder
+
+## 4. Remediation
+- Remediation list
+- Remediation detail view
+- Vendor remediation response screen
+
+## 5. Renewals
+- Upcoming renewals
+- Overdue renewals
+
+## 6. Reports
+- Basic reports table
+- Export buttons (UI level)
+
+## 7. Vendor Portal
+- Vendor login view
+- My Assessments page
+- Status-wise assessment visibility for vendors
+
+
+##  UI Quality Enhancements
+- Loading states for all lists
+- Empty state messages
+- Error state placeholders
+- Consistent status badges across screens
+- Global search (vendors / assessments)
+
+##  Routing Overview
+The project uses **React Router** for navigation between:
+- Assessment pages
+- Templates
+- Reviews
+- Remediation
+- Renewals
+- Reports
+- Vendor portal
+
+---
+
+##  How to Run the Project Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shiwanijunne/vrm-ui.git
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
